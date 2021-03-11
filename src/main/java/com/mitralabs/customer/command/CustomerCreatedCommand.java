@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class CreateCustomerCommand implements CustomerCommand {
+public class CustomerCreatedCommand implements CustomerCommand {
 
 	private String firstName;
 	private String lastName;

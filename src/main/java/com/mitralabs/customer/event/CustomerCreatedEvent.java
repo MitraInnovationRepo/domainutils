@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CreateCustomerEvent implements CustomerEvent {
+public class CustomerCreatedEvent implements CustomerEvent {
 
 	private String firstName;
 	private String lastName;
