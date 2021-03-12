@@ -13,4 +13,5 @@ public class CustomerCreatedEvent implements CustomerEvent {
 	private String lastName;
 	private String address;
 	private String email;
+	private String accountType;
 }
