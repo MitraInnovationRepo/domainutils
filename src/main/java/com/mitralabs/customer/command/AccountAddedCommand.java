@@ -1,4 +1,4 @@
-package com.mitralabs.account.command;
+package com.mitralabs.customer.command;
 
 import java.util.Date;
 
@@ -7,12 +7,10 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class AccountCreatedCommand implements AccountCommand {
+public class AccountAddedCommand implements CustomerCommand {
 
-	private String ownerId;
 	private String accountId;
 	private String accountType;
-	private String status;
 	private Date createdAt;
 
 }

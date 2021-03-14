@@ -1,4 +1,4 @@
-package com.mitralabs.account.event;
+package com.mitralabs.customer.event;
 
 import java.util.Date;
 
@@ -9,12 +9,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class AccountCreatedEvent implements AccountEvent {
+public class AccountAddedEvent implements CustomerEvent {
 
-	private String ownerId;
 	private String accountId;
 	private String accountType;
-	private String status;
 	private Date createdAt;
 
 }
